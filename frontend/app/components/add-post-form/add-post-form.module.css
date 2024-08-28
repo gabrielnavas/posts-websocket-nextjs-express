@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 1.3rem;
+}
+
+.inputGroup {
+  margin: .35rem 0;
+}
+
+.label {
+  margin: 0rem .75rem;
+}
+
+.input {
+  min-width: 100%;
+  max-width: 100%;
+  padding: .55rem 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  border-radius: 1.01rem;
+  border: 1px solid gray;
+  margin-top: .25rem;
+}
+
+.input:hover, .input:active {
+  border: 1px solid white;
+}
+
+.inputContent {
+  min-height: 150px;
+  max-height: 150px;
+  resize: none;
+}
+
+.inputBottom {
+  display: flex;
+  justify-content: space-between;
+  margin: .3rem .75rem;
+}
+
+.inputLength {
+  font-weight: 400;
+  color: gray;
+}
+
+.button {
+  padding: .30rem 1.05rem;
+  font-weight: 400;
+  font-size: 1.01rem;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 1.01rem;
+}
+
+.button:hover, .button:active {
+  border: 1px solid white;
+}
+
+.messageError {
+  padding-top: .25rem;
+  padding-left: .75rem;
+}

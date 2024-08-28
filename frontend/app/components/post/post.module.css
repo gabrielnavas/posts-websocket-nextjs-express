@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.05rem;
+  border: 1px solid white;
+}
+
+.owner {
+  font-weight: 400;
+  font-style: italic;
+  padding: 4px 0 20px 5px;
+  border-bottom: 1px solid gray;
+}
+
+.content {
+  font-weight: 500;
+  padding: 10px 0 20px 5px;
+  word-break: break-word;
+}
